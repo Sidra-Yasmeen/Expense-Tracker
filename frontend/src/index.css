@@ -1,13 +1,10 @@
-/* App.css */
 :root {
-  /* Color Palette */
   --almond: #f1dac4ff;
   --rose-quartz: #a69cacff;
   --ultra-violet: #474973ff;
   --oxford-blue: #161b33ff;
   --rich-black: #0d0c1dff;
   
-  /* Additional Colors */
   --primary-gradient: linear-gradient(135deg, var(--ultra-violet), var(--oxford-blue));
   --income-gradient: linear-gradient(135deg, #10b981, #059669);
   --expense-gradient: linear-gradient(135deg, #ef4444, #dc2626);
@@ -37,7 +34,6 @@ body {
   flex-direction: column;
 }
 
-/* Background Elements */
 .background-elements {
   position: fixed;
   top: 0;
@@ -75,7 +71,6 @@ body {
   left: -100px;
 }
 
-/* Navbar */
 .navbar {
   padding: 1rem 0;
   background: transparent !important;
@@ -135,7 +130,6 @@ body {
   color: var(--almond) !important;
 }
 
-/* Main Dashboard */
 .main-dashboard {
   padding: 6rem 0 2rem;
   min-height: 100vh;
@@ -163,7 +157,6 @@ body {
   font-size: 0.875rem;
 }
 
-/* Summary Cards */
 .summary-cards {
   margin-bottom: 3rem;
 }
@@ -259,7 +252,6 @@ body {
   transition: height 1s ease;
 }
 
-/* Content Cards */
 .content-card {
   border: none;
   border-radius: 16px;
@@ -285,7 +277,6 @@ body {
   padding: 1.5rem;
 }
 
-/* Add Transaction Card */
 .add-transaction-card {
   position: relative;
 }
@@ -300,7 +291,6 @@ body {
   background: var(--primary-gradient);
 }
 
-/* Quick Stats Card */
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

@@ -23,7 +23,6 @@ export default function App() {
       setLoading(false);
     }
   };
-
   useEffect(() => { fetchAll(); }, []);
 
   const addTransaction = async (data) => {
