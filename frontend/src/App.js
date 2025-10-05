@@ -52,7 +52,6 @@ export default function App() {
     }
   };
 
-  // Format currency
   const formatCurrency = (amount) => {
     return new Intl.NumberFormat('en-PK', {
       style: 'currency',
@@ -63,14 +62,12 @@ export default function App() {
 
   return (
     <div className="app-container">
-      {/* Background Elements */}
       <div className="background-elements">
         <div className="bg-circle bg-circle-1"></div>
         <div className="bg-circle bg-circle-2"></div>
         <div className="bg-circle bg-circle-3"></div>
       </div>
 
-      {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
         <div className="container">
           <div className="navbar-brand">
