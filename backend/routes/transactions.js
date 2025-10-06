@@ -19,7 +19,6 @@ router.get('/', async (req, res) => {
   }
 });
 
-// Create transaction
 router.post('/', async (req, res) => {
   try {
     const { type, amount, category, note, date } = req.body;
@@ -35,7 +34,6 @@ router.post('/', async (req, res) => {
   }
 });
 
-// Update transaction
 router.put('/:id', async (req, res) => {
   try {
     const { id } = req.params;
@@ -49,7 +47,6 @@ router.put('/:id', async (req, res) => {
   }
 });
 
-// Delete transaction
 router.delete('/:id', async (req, res) => {
   try {
     const { id } = req.params;
