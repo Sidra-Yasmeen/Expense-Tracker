@@ -108,10 +108,8 @@ export default function App() {
         </div>
       </nav>
 
-      {/* Main Dashboard */}
       <main className="main-dashboard">
         <div className="container-fluid">
-          {/* Dashboard Header */}
           <div className="dashboard-header">
             <div className="row align-items-center">
               <div className="col-md-6">
@@ -132,10 +130,8 @@ export default function App() {
             </div>
           </div>
 
-          {/* Summary Cards */}
           <div className="summary-cards">
             <div className="row g-4">
-              {/* Income Card */}
               <div className="col-md-4">
                 <div className="summary-card income-card">
                   <div className="card-body">
@@ -164,7 +160,6 @@ export default function App() {
                 </div>
               </div>
 
-              {/* Expense Card */}
               <div className="col-md-4">
                 <div className="summary-card expense-card">
                   <div className="card-body">
@@ -193,7 +188,6 @@ export default function App() {
                 </div>
               </div>
 
-              {/* Balance Card */}
               <div className="col-md-4">
                 <div className="summary-card balance-card">
                   <div className="card-body">
